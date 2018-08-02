@@ -36,7 +36,7 @@ public class MainActivity extends AppCompatActivity {
         if(seconds <= 9){
             secondString = "0"+secondString;
         }
-        textView.setText(Integer.toString(minutes) + ":" + secondString);
+        textView.setText(Integer.toString(minutes) + " : " + secondString);
     }
 
     public void controlTimer(View view){
